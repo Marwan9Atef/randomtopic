@@ -11,6 +11,7 @@ class RandomTopic extends StatelessWidget {
       routerConfig: AppRouter.router,
       title: "Random topic",
       theme: AppTheme.lightTheme,
+      debugShowCheckedModeBanner: false,
 
     
 

@@ -6,12 +6,14 @@ class ProductsScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
-children: [
-Text("data")
-
-],
-
+      body: SafeArea(
+        child: Column(
+        children: [
+        Text("data")
+        
+        ],
+        
+        ),
       ),
 
 
